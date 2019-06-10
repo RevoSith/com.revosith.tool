@@ -1,4 +1,4 @@
-常用工具包封装.懒得引各种杂七八的包,轻量级包. cglib还是需要的(scope=provided).
+常用工具包封装.懒得引各种杂七八的包,轻量级包. cglib还是需要的(scope=provided)..
 1.0.0
 
 CopyUtils 
