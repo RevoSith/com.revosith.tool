@@ -12,7 +12,16 @@ isEmpty 方法.
 
 ConvertUtils(带工具缓存功能,工具初始化存在耗时.)
 使用@CopyConvert注解的同名属性复制功能.
-example
+ConvertTool 接口. 可以自定义实现方式
+
+值转换:
+DefaultConvertTool:默认字符赋值
+DateConvertTool: date->Str
+深拷贝:
+ListConvertTool:   列表拷贝
+SimpleConvertTool: 对象拷贝
+
+example:
    @CopyConvert(convertClass = "com.revosith.tool.impl.DateConvertTool", param = "yyyy-MM-dd")
    private Date tempDate; 
 DateConvertTool 实现了ConvertTool 接口. 可以自定义实现方式
