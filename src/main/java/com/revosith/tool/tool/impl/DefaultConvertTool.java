@@ -15,6 +15,6 @@ public class DefaultConvertTool implements ConvertTool<String, Date> {
 
     @Override
     public String convert(Class<String> target, Date date, String param) {
-        return "1231";
+        return param;
     }
 }
